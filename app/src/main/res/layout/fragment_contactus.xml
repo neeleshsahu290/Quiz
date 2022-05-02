@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_home.ContactusFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/developer"
+           android:paddingTop="10dp"
+           android:textSize="14sp"
+           android:textStyle="bold"
+           android:textColor="@color/colorblack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:textSize="16sp"
+            android:text="@string/neelesh_sahu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/blog_address_text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorblack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blog_address"
+            android:textSize="16sp"
+            android:paddingTop="2dp"
+            android:textStyle="italic"
+            android:textColor="#4169e1"
+            android:text="@string/blog_address"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/email_id"
+            android:textColor="@color/colorblack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:textSize="16sp"
+            android:text="@string/neeleshsahu290_gmail_com"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

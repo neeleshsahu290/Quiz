@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/sunset">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:text="Static GK and GS Learner"
+    android:layout_above="@id/crdvw"
+    android:textColor="#505050"
+    android:textSize="26sp"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"/>
+
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorwhite"
+       android:layout_margin="20dp"
+       app:cardCornerRadius="20dp"
+       android:layout_centerInParent="true"
+       android:id="@+id/crdvw">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Welcome"
+          android:id="@+id/txtwelcome"
+          android:layout_margin="15dp"
+          android:textSize="35sp"
+          android:textStyle="bold"
+          android:textColor="@color/colorblack"
+          android:layout_gravity="center_horizontal"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Please enter your name"
+             android:id="@+id/txtatt"
+             android:layout_margin="15dp"
+             android:textSize="18sp"
+             android:textStyle="bold"
+             android:layout_gravity="center_horizontal"/>
+         <com.google.android.material.textfield.TextInputLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+             android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:hint="Name"
+                android:maxLines="1"
+                android:id="@+id/edttxtname" />
+
+
+         </com.google.android.material.textfield.TextInputLayout>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/colorwhite"
+             android:text="Start"
+             android:layout_margin="10dp"
+             android:background="@drawable/rounded_corners"
+             android:textSize="20sp"
+             android:id="@+id/btnstart"
+             />
+
+
+      </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

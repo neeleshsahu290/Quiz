@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/home">
+
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.Neelesh.quiz.fragment_home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_worldFragment"
+            app:destination="@id/worldFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_indiaFragment"
+            app:destination="@id/indiaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_enviourmentFragment"
+            app:destination="@id/enviourmentFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_artandcultureFragment"
+            app:destination="@id/artandcultureFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_spaceFragment"
+            app:destination="@id/spaceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_defenceFragment"
+            app:destination="@id/defenceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_generalScienceFragment"
+            app:destination="@id/generalScienceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_HIstoryFragment"
+            app:destination="@id/HIstoryFragment" />
+        <action
+            android:id="@+id/action_home_to_physicsFragment"
+            app:destination="@id/physicsFragment" />
+        <action
+            android:id="@+id/action_home_to_biologyFragment"
+            app:destination="@id/biologyFragment" />
+        <action
+            android:id="@+id/action_home_to_chemistryFragment"
+            app:destination="@id/chemistryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/worldFragment"
+        android:name="com.Neelesh.quiz.fragment_home.WorldFragment"
+        android:label="@string/world"
+        tools:layout="@layout/fragment_world" >
+        <action
+            android:id="@+id/action_worldFragment_to_countryCapitalCurrencyQuizActivity"
+            app:destination="@id/countryCapitalCurrencyQuizActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_countryCentralBankActivity"
+            app:destination="@id/countryCentralBankActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_centralBankActivity"
+            app:destination="@id/centralBankActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_newspapersActivity"
+            app:destination="@id/newspapersActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_famousNewsPaperQuizActivity"
+            app:destination="@id/famousNewsPaperQuizActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_internationalOrganizationsActivity"
+            app:destination="@id/internationalOrganizationsActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_internationalOrganisationsQuizActivity"
+            app:destination="@id/internationalOrganisationsQuizActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_foodFestivleActivity"
+            app:destination="@id/foodFestivleActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_foodfestivalQuizActivity"
+            app:destination="@id/foodfestivalQuizActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_countryParlimantrylistActivity"
+            app:destination="@id/countryParlimantrylistActivity" />
+        <action
+            android:id="@+id/action_worldFragment_to_countryParliamentQuizActivity"
+            app:destination="@id/countryParliamentQuizActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/indiaFragment"
+        android:name="com.Neelesh.quiz.fragment_home.IndiaFragment"
+        android:label="@string/india"
+        tools:layout="@layout/fragment_india" />
+    <fragment
+        android:id="@+id/enviourmentFragment"
+        android:name="com.Neelesh.quiz.fragment_home.EnviourmentFragment"
+        android:label="@string/envionment"
+        tools:layout="@layout/fragment_enviourment" />
+    <fragment
+        android:id="@+id/artandcultureFragment"
+        android:name="com.Neelesh.quiz.fragment_home.ArtandcultureFragment"
+        android:label="@string/art_and_culture"
+        tools:layout="@layout/fragment_artandculture" />
+    <fragment
+        android:id="@+id/spaceFragment"
+        android:name="com.Neelesh.quiz.fragment_home.SpaceFragment"
+        android:label="@string/space"
+        tools:layout="@layout/fragment_space" />
+    <fragment
+        android:id="@+id/defenceFragment"
+        android:name="com.Neelesh.quiz.fragment_home.DefenceFragment"
+        android:label="@string/defence"
+        tools:layout="@layout/fragment_defence" />
+    <fragment
+        android:id="@+id/generalScienceFragment"
+        android:name="com.Neelesh.quiz.fragment_home.GeneralScienceFragment"
+        android:label="@string/general_science"
+        tools:layout="@layout/fragment_general_science" />
+    <fragment
+        android:id="@+id/HIstoryFragment"
+        android:name="com.Neelesh.quiz.fragment_home.HIstoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_h_istory" />
+
+    <fragment
+        android:id="@+id/aboutapp"
+        android:name="com.Neelesh.quiz.fragment_home.AboutappFragment"
+        android:label="@string/menu_about_app"
+        tools:layout="@layout/fragment_aboutapp" />
+    <fragment
+        android:id="@+id/contactus"
+        android:name="com.Neelesh.quiz.fragment_home.ContactusFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/physicsFragment"
+        android:name="com.Neelesh.quiz.fragment_home.PhysicsFragment"
+        android:label="fragment_physics"
+        tools:layout="@layout/fragment_physics" />
+    <fragment
+        android:id="@+id/biologyFragment"
+        android:name="com.Neelesh.quiz.fragment_home.BiologyFragment"
+        android:label="fragment_biology"
+        tools:layout="@layout/fragment_biology" >
+        <action
+            android:id="@+id/action_biologyFragment_to_nutrientandDeficiencyDiciesesActivity"
+            app:destination="@id/nutrientandDeficiencyDiciesesActivity" />
+        <action
+            android:id="@+id/action_biologyFragment_to_nutrientSourcesQuizActivity"
+            app:destination="@id/nutrientSourcesQuizActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/chemistryFragment"
+        android:name="com.Neelesh.quiz.fragment_home.ChemistryFragment"
+        android:label="fragment_chemistry"
+        tools:layout="@layout/fragment_chemistry" >
+        <action
+            android:id="@+id/action_chemistryFragment_to_elementOresActivity"
+            app:destination="@id/elementOresActivity" />
+        <action
+            android:id="@+id/action_chemistryFragment_to_elementOresQuizActivity"
+            app:destination="@id/elementOresQuizActivity" />
+        <action
+            android:id="@+id/action_chemistryFragment_to_elementActivity"
+            app:destination="@id/elementActivity" />
+        <action
+            android:id="@+id/action_chemistryFragment_to_alloysActivity"
+            app:destination="@id/alloysActivity" />
+        <action
+            android:id="@+id/action_chemistryFragment_to_alloysQuizActivity"
+            app:destination="@id/alloysQuizActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/countryCapitalCurrencyQuizActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.CountryCapitalCurrencyQuizActivity"
+        android:label="CountryCapitalCurrencyQuizActivity" />
+    <activity
+        android:id="@+id/countryCentralBankActivity"
+        android:name="com.Neelesh.quiz.list_package.CountryCentralBankActivity"
+        android:label="CountryCentralBankActivity" />
+    <activity
+        android:id="@+id/centralBankActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.CentralBankActivity"
+        android:label="CentralBankActivity" />
+    <activity
+        android:id="@+id/newspapersActivity"
+        android:name="com.Neelesh.quiz.list_package.NewspapersActivity"
+        android:label="NewspapersActivity" />
+    <activity
+        android:id="@+id/famousNewsPaperQuizActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.FamousNewsPaperQuizActivity"
+        android:label="FamousNewsPaperQuizActivity" />
+    <activity
+        android:id="@+id/internationalOrganizationsActivity"
+        android:name="com.Neelesh.quiz.list_package.InternationalOrganizationsActivity"
+        android:label="InternationalOrganizationsActivity" />
+    <activity
+        android:id="@+id/internationalOrganisationsQuizActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.InternationalOrganisationsQuizActivity"
+        android:label="InternationalOrganisationsQuizActivity" />
+    <activity
+        android:id="@+id/foodFestivleActivity"
+        android:name="com.Neelesh.quiz.list_package.FoodFestivleActivity"
+        android:label="FoodFestivleActivity" />
+    <activity
+        android:id="@+id/foodfestivalQuizActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.FoodfestivalQuizActivity"
+        android:label="FoodfestivalQuizActivity" />
+    <activity
+        android:id="@+id/countryParlimantrylistActivity"
+        android:name="com.Neelesh.quiz.list_package.CountryParlimantrylistActivity"
+        android:label="CountryParlimantrylistActivity" />
+    <activity
+        android:id="@+id/countryParliamentQuizActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.CountryParliamentQuizActivity"
+        android:label="CountryParliamentQuizActivity" />
+    <activity
+        android:id="@+id/nutrientandDeficiencyDiciesesActivity"
+        android:name="com.Neelesh.quiz.list_package.NutrientandDeficiencyDiciesesActivity"
+        android:label="NutrientandDeficiencyDiciesesActivity" />
+    <activity
+        android:id="@+id/nutrientSourcesQuizActivity"
+        android:name="com.Neelesh.quiz.quiz_activity.NutrientSourcesQuizActivity"
+        android:label="NutrientSourcesQuizActivity" />
+    <activity
+        android:id="@+id/elementOresActivity"
+        android:name="com.Neelesh.quiz.generalscience.ElementOresActivity"
+        android:label="ElementOresActivity" />
+    <activity
+        android:id="@+id/elementOresQuizActivity"
+        android:name="com.Neelesh.quiz.generalscience.ElementOresQuizActivity"
+        android:label="ElementOresQuizActivity" />
+    <activity
+        android:id="@+id/elementActivity"
+        android:name="com.Neelesh.quiz.generalscience.ElementActivity"
+        android:label="ElementActivity" />
+    <activity
+        android:id="@+id/alloysActivity"
+        android:name="com.Neelesh.quiz.generalscience.AlloysActivity"
+        android:label="AlloysActivity" />
+    <activity
+        android:id="@+id/alloysQuizActivity"
+        android:name="com.Neelesh.quiz.generalscience.AlloysQuizActivity"
+        android:label="AlloysQuizActivity" />
+</navigation>

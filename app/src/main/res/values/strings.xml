@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Static GK and GS learner</string>
+    <string name="click_here">Click here</string>
+    <string name="title_activity_quiz_question">QuizQuestionActivity</string>
+    <string name="open_drawer">OPen drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="preference_file_name">Static Gk Preferences</string>
+    <string name="about_app">The content on  the application is taken from different books and online Platforms.
+    The Application is to make a learning easy. Support us so we can improve and provide a better platform to our users.
+    Share  app to your friends  </string>
+    <string name="str">H₂</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_rate">Rate</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about_app">About App</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_exit">Exit</string>
+    <string name="world">World</string>
+    <string name="india">India</string>
+    <string name="envionment">Environment</string>
+    <string name="art_and_culture">Art and Culture</string>
+    <string name="space">Space</string>
+    <string name="defence">Defence</string>
+    <string name="history">History</string>
+    <string name="general_science">General Science</string>
+    <string name="support_us">Support Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="blog_address">https://neeleshsahu2900.blogspot.com/2020/08/static-gk-and-gs-learner.html</string>
+    <string name="neelesh_sahu">Neelesh Sahu</string>
+    <string name="developer">Developer :</string>
+    <string name="blog_address_text">Blog Address :</string>
+    <string name="email_id">Email Id :</string>
+    <string name="neeleshsahu290_gmail_com">neeleshsahu290@gmail.com</string>
+    <string name="version_1_1_0">Version 1.1.0</string>
+
+</resources>

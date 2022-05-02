@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/tablelayout"
+        android:weightSum="2.3">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+
+            <TextView
+                android:id="@+id/txt2SnorowElt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SNo"
+                android:gravity="center_horizontal"
+                android:textSize="16sp"
+                android:textColor="@color/colorheadingtext"
+                android:paddingVertical="6dp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+
+            <TextView
+                android:id="@+id/txt2snorowElt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="6dp"
+                android:text="Name"
+                android:textColor="@color/colorheadingtext"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+
+            <TextView
+                android:id="@+id/txt2snorowElt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="6dp"
+                android:text="Period"
+                android:textColor="@color/colorheadingtext"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclersnorowtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tablelayout"
+        android:scrollbars="vertical"
+        />
+
+</RelativeLayout>

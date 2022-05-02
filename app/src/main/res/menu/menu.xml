@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/home"
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/contactus"
+            android:title="@string/menu_contact_us"
+            android:icon="@drawable/ic_contactus"/>
+        <item
+            android:id="@+id/aboutapp"
+            android:title="@string/menu_about_app"
+            android:icon="@drawable/ic_aboutapp"/>
+        <item android:title="@string/support_us">
+        <menu>
+        <item
+            android:id="@+id/rate"
+            android:title="@string/menu_rate"
+            android:icon="@drawable/ic_rate"/>
+        <item
+            android:id="@+id/share"
+            android:title="@string/menu_share"
+            android:icon="@drawable/ic_share"/>
+        </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems"
+            >
+
+            <TextView
+                android:id="@+id/txtstate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="State"
+                android:textColor="@color/colorblack"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+
+            <TextView
+                android:id="@+id/txtcapital1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="capital"
+                android:textColor="@color/colorblack"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

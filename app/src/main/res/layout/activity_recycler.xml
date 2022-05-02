@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablelayouhht4"
+        android:weightSum="4"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="city"
+                android:textIsSelectable="true"
+                android:gravity="center"
+                android:textColor="@color/colorblack"
+                android:padding="2dp"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+            <TextView
+                android:id="@+id/txtfounder"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="founder"
+                android:textIsSelectable="true"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorblack"
+                android:padding="2dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+            <TextView
+                android:id="@+id/txtlocation"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Location"
+                android:textIsSelectable="true"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorblack"
+                android:padding="2dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/listitems">
+            <TextView
+                android:id="@+id/txtwhen"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="When"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textColor="@color/colorblack"
+                android:padding="2dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
